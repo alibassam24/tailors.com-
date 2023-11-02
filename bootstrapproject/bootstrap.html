@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>BurgerSpot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;800;900&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+   
+  </head>
+  <style>
+    *{
+        font-family: Roboto,'sans-serif';
+        margin: 0%;
+        padding: 0%;
+        /* overflow-x: hidden;  */
+      /* This made an error in cards */
+      color:rgb(33, 37, 41) ;
+        
+    }
+
+      .textcolor{
+        color:rgb(33, 37, 41) ;
+      }
+
+    
+    body{
+        background-color:#6C5F5B;
+        overflow-x: hidden;
+      }
+
+
+    .bg-body-tertiary{
+    background-color:#F6F1EE !important;
+      
+    }
+    .navbar li a{
+      color:rgb(33, 37, 41) ;
+        font-weight: bold;
+        font-size:18px ;    
+    }
+
+    .name{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .btn-dark{
+        border-radius: 4px;
+        padding: 7px 28px;
+    }
+
+    .center{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video{
+      margin-top: 55px;
+    }
+
+    .main-content{
+        
+        height: 95vh;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        margin-bottom: 5%;
+    }
+
+    .img-fluid{
+        margin-top: 12px;
+     }
+
+            .pricing{
+                margin: 33px;
+            }
+
+            .cards{
+                margin: 44px;
+            }
+
+            .footer{
+                margin-top: 144px;
+            }
+
+            .card h3{
+                color: rgb(33, 37, 41);
+            }
+
+            .card{
+              background-color: #F6F1EE !important;
+            }
+            
+            .card p{
+                color: rgb(33, 37, 41);
+              font-weight: bold;
+              }
+
+            .container-fluid{
+                
+            }
+
+            .pricing-header p{
+              
+              
+              text-align: center;
+              margin: auto;
+            }
+
+            .scissor{
+              width: 95px;
+            }
+
+            .pfp{
+              width: 125px;
+             }
+
+            .cr-container{
+              margin-top: 5%;
+            }
+
+            .scissor-container{
+              margin: auto;
+            }
+
+            .suit{
+              width: 145px;
+            }
+
+            .flex-center{
+              display: flex;
+              justify-content: center;
+              margin-top:3% ;
+              margin-bottom: 3%;
+              flex-wrap:wrap;
+             
+            }
+
+            @media screen and  (max-width:1008px){
+              .flex-center{
+                display: inline-block;
+                text-align: center;
+                margin: 114px;
+               }
+            }
+  </style>
+  <body>
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " aria-label="Thirteenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+            <a class="navbar-brand col-lg-3 me-0 name" href="#">tai<span style="color:#CE5A67; font-weight: bold;">L</span>ors.com</a>
+            <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reviews</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQs</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+            </ul>
+            <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+              <button class="btn btn-dark">Get Your Suit Now!</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-- Body -->
+     
+
+      <div class="container">
+        
+        <!-- Main -->
+        <div class="container-fluid main-content">
+         
+          <div class="row">
+              
+              <div class="col-lg-6 col-sm-12" >
+                  <h1 style="font-weight: bold; " class="">Get Your Clothes From  Expert Stylists</h1>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem facilis sunt aut
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus error earum quae.</p>
+                    <div class=""><button class="btn btn-dark ">Get Your Suit Now!</button></div>  
+                  </div>
+          
+          <div class="col-lg-6 col-sm-12 video text-center" >
+             <img src="tailor.png"  width="312px" class="img-fluid" alt="">
+          </div>
+         </div>
+        </div>
+        <h1 class="display-4 fw-normal text-body-emphasis text-center"> <b>Collection</b></h1>
+        <!-- Collection -->
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 cards">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('lux.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold textcolor"><br><br><br><br>Luxury Wear</h3>
+                <p>Small, Medium, Large</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('casual.avif');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><br><br><br><br>Casual Wear</h3>
+                <p>Small, Medium, Large</p>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('sui.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><br><br><br><br>Suits</h3>
+  
+               <p>Small, Medium, Large</p>
+                  
+                 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Design -->
+<div class="row">
+    <div class="col-12 text-center scissor-container">
+      <!-- <img src="sew.png" class="scissor" alt=""> -->
+      <img src="scissor.webp" class="img-fluid scissor "  alt="">
+      </div> 
+      <!-- Testimonials -->
+      
+      <div class="row cr-container">
+            
+              
+        <div class="flex-center">
+          <div class="col-2 text-center"><img src="pfp1.png" class="pfp" alt="">
+          </div>
+      
+          <div class="card col-8 text-center">
+            <div class="card-header">
+              <b>Customer Review</b>
+            </div>
+            <div class="card-body ">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">World Famous <cite title="Source Title">"Mark Henry"</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+            </div>
+      </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center scissor-container text-center">
+          <!-- <img src="sew.png" class="scissor" alt=""> -->
+          <img src="suit.png" class="img-fluid scissor "  alt="">
+          </div> 
+          <!-- Testimonials -->
+          
+          <div class="row cr-container">
+            
+              
+                <div class="flex-center">
+                  <div class="col-2 text-center"><img src="pfp3.png" class="pfp" alt=""></div>
+              
+                  <div class="card col-8 text-center">
+                    <div class="card-header">
+                      <b>Customer Review</b>
+                    </div>
+                    <div class="card-body ">
+                      <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">World Famous <cite title="Source Title">"Mark Henry"</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                    </div>
+                 
+             
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 text-center scissor-container">
+              <!-- <img src="sew.png" class="scissor" alt=""> -->
+              <img src="sew.png" class="img-fluid scissor "  alt="">
+              </div> 
+              <!-- Testimonials -->
+              
+              <div class="row cr-container">
+            
+              
+                <div class="flex-center">
+                  <div class="col-2 text-center"><img src="pfp2.png" class="pfp" alt=""></div>
+              
+                  <div class="card col-8 text-center">
+                    <div class="card-header">
+                      <b>Customer Review</b>
+                    </div>
+                    <div class="card-body ">
+                      <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">World Famous <cite title="Source Title">"Mark Henry"</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                    </div>
+                
+
+
+              </div>
+              </div>
+
+                 
+
+    
+    
+              
+          <div class="row">
+            <div class="col-12 text-center scissor-container">
+              <!-- <img src="sew.png" class="scissor" alt=""> -->
+              <img src="suit2.png" class="img-fluid suit "  alt="">
+              </div> 
+
+<!--            
+                    <div>
+                            <h3>WHAT OUR CLIENTS SAY</h3>
+                            <h1>TESTIMONIALS</h1>
+                            <div>
+                                <div >
+                                    <div >
+                                        <p>I have tried a lot of food delivery services but Plate is something out of this world! Their food is really healthy and it tastes great, which is why I recommend this company to all my friends!</p>
+                                        <h3>peter lee</h3>
+                                    </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <p>I have tried a lot of food delivery services but Plate is something out of this world! Their food is really healthy and it tastes great, which is why I recommend this company to all my friends!</p>
+                                        <h3>peter lee</h3>
+                                    </div>
+                                </div>
+                                <div >
+                                    <div >
+                                        <p>I have tried a lot of food delivery services but Plate is something out of this world! Their food is really healthy and it tastes great, which is why I recommend this company to all my friends!</p>
+                                        <h3>peter lee</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+          <!-- </div>
+           <img src="suit.png" class="scissor" alt="">
+        </div> -->
+
+        <!-- Pricing -->
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center footer">
+        <div class="container">
+          <h1 class="display-4 fw-normal text-body-emphasis"> <b> Our Rates</b></h1>
+          <p class="fs-5 text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet laudantium sed optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus assumenda veniam?</p>
+       
+
+        </div>
+        </div>
+  
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center pricing">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Consultation</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem, ipsum.</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Mediocre</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem, ipsum dolor.</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header py-3 text-bg-dark border-dark">
+                <h4 class="my-0 fw-normal">The Best
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem ipsum dolor sit.</li>
+                  
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  <!-- Footer -->
+  
+  <div class="container footer">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Get the latest designs at the earliest.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-dark" type="button">Join Us</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p> Ali Bassam © 2023 . All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+      </div>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
